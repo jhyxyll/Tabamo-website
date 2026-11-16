@@ -1,0 +1,72 @@
+/*
+  Warm Crumb Bakery palette:
+  Cream: #FFF8E7
+  Golden brown: #A66A2C
+  Soft beige: #E8D8C3
+*/
+
+body {
+  margin: 0;
+  padding: 24px;
+  background-color: #FFF8E7;
+  color: #3E2A1F;
+  font-family: "Times New Roman", serif;
+}
+
+header,
+section,
+footer {
+  margin: 0 auto 24px;
+  padding: 24px;
+  max-width: 1000px;
+  background-color: #E8D8C3;
+  border-radius: 12px;
+}
+
+/* Poppins headings; Times New Roman body text */
+h1,
+h2,
+h3,
+nav,
+.button {
+  font-family: "Poppins", sans-serif;
+}
+
+/* Navigation links in a row */
+nav {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 12px 0;
+}
+
+nav a {
+  color: #3E2A1F;
+  text-decoration: none;
+}
+
+nav a:hover {
+  color: #A66A2C;
+  text-decoration: underline;
+}
+
+/* Call-to-action button */
+.button {
+  display: inline-block;
+  margin-top: 12px;
+  padding: 12px 20px;
+  background-color: #A66A2C;
+  color: #FFF8E7;
+  border-radius: 6px;
+  text-decoration: none;
+}
+
+.button:hover {
+  background-color: #7D4C20;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
