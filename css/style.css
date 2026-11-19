@@ -1,72 +1,120 @@
-/*
-  Warm Crumb Bakery palette:
-  Cream: #FFF8E7
-  Golden brown: #A66A2C
-  Soft beige: #E8D8C3
-*/
-
+/* Palette: cream #FFF8E7, golden brown #A66A2C, beige #E8D8C3, dark brown #3E2A1F. */
+ 
 body {
   margin: 0;
-  padding: 24px;
   background-color: #FFF8E7;
   color: #3E2A1F;
-  font-family: "Times New Roman", serif;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 1.6;
 }
-
-header,
-section,
-footer {
-  margin: 0 auto 24px;
+ 
+h1, h2, h3, nav, .business-name, .button {
+  font-family: "Poppins", Arial, sans-serif;
+}
+ 
+h1 {
+  font-size: 34px;
+  line-height: 1.3;
+}
+ 
+h2 {
+  font-size: 26px;
+}
+ 
+h3 {
+  margin-top: 0;
+  font-size: 20px;
+}
+ 
+header, footer {
   padding: 24px;
-  max-width: 1000px;
   background-color: #E8D8C3;
-  border-radius: 12px;
+  text-align: center;
 }
-
-/* Poppins headings; Times New Roman body text */
-h1,
-h2,
-h3,
-nav,
-.button {
-  font-family: "Poppins", sans-serif;
+ 
+.business-name {
+  margin: 0 0 16px;
+  font-size: 28px;
+  font-weight: bold;
 }
-
-/* Navigation links in a row */
+ 
 nav {
   display: flex;
+  justify-content: center;
   flex-wrap: wrap;
-  gap: 20px;
-  padding: 12px 0;
+  gap: 16px;
 }
-
+ 
 nav a {
   color: #3E2A1F;
+  font-size: 14px;
   text-decoration: none;
 }
-
+ 
 nav a:hover {
   color: #A66A2C;
   text-decoration: underline;
 }
-
-/* Call-to-action button */
+ 
+main {
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 20px;
+}
+ 
+section {
+  margin-bottom: 24px;
+  padding: 24px;
+  background-color: #E8D8C3;
+  border-radius: 8px;
+}
+ 
+.hero {
+  text-align: center;
+}
+ 
 .button {
   display: inline-block;
-  margin-top: 12px;
+  margin: 12px 0;
   padding: 12px 20px;
-  background-color: #A66A2C;
+  background-color: #855523;
   color: #FFF8E7;
-  border-radius: 6px;
+  font-size: 16px;
   text-decoration: none;
+  border-radius: 6px;
 }
-
+ 
 .button:hover {
-  background-color: #7D4C20;
+  background-color: #3E2A1F;
 }
-
+ 
 img {
-  max-width: 100%;
+  display: block;
+  width: 100%;
+  max-width: 500px;
   height: auto;
+  margin: 20px auto;
   border-radius: 8px;
+}
+ 
+article {
+  margin-top: 16px;
+  padding: 16px;
+  background-color: #FFF8E7;
+  border-left: 4px solid #A66A2C;
+}
+ 
+footer {
+  font-size: 16px;
+}
+ 
+@media (max-width: 600px) {
+  h1 {
+    font-size: 28px;
+  }
+ 
+  section {
+    padding: 16px;
+  }
 }
