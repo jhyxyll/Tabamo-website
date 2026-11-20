@@ -97,6 +97,12 @@ img {
   margin: 20px auto;
   border-radius: 8px;
 }
+
+.product-picture {
+  width: 350px;
+  height: 300px;
+  object-fit: cover;
+}
  
 article {
   margin-top: 16px;
